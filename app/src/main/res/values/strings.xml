@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.12: the accessibility-service description is gone with the
+     v1.11 auto-download feature. Kept as an (empty) values file so
+     the build's res/values glob still matches. -->
+<resources>
+</resources>
