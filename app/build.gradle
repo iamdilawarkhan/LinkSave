@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.user.linksave'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.user.linksave'
+        minSdk 24
+        targetSdk 34
+        versionCode 19
+        versionName '1.18'
+    }
+
+    buildTypes {
+        debug {}
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
