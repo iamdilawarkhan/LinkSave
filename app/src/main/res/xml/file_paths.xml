@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.18: the in-app updater shares only the downloaded update APK
+     (app cache / update / LinkSave-update.apk) with the system
+     installer, through UpdateFileProvider. Nothing else is shared. -->
+<paths>
+    <cache-path name="update" path="update/" />
+</paths>
