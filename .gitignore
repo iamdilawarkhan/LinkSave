@@ -1,0 +1,21 @@
+# Signing key — NEVER commit to a public repo. Anyone with this file can
+# sign fake updates as LinkSave. Keep a private backup elsewhere.
+*.keystore
+*.jks
+
+# Local machine paths (Android SDK location)
+local.properties
+
+# Build outputs
+build/
+out/
+*.apk
+*.aab
+*.idsig
+releases/
+
+# IDE / Gradle
+.idea/
+*.iml
+.gradle/
+gradle/
