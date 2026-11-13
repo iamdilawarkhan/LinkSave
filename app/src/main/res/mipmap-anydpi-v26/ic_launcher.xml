@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.15: adaptive launcher icon. Background is the mascot artwork
+     heavily blurred (smooth green, no seam); foreground is the 3D robot
+     mascot artwork at 85%, so the robot and all four corner platform
+     badges survive every launcher mask (circle, squircle, rounded
+     square, teardrop). -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
